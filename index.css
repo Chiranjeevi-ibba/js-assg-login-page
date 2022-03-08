@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-image: linear-gradient(to right, #50C3F0, #853DE5);
+    min-height: 100vh;
+    padding: 20px;
+}
+.form {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 360px;
+}
+.label-element {
+    display: block;
+    margin: 0;
+    font-weight: 600;
+}
+.input-field {
+    min-width: 300px;
+    height: 30px;
+    
+}
+.form-fields-cont {
+    padding: 8px;
+    padding-bottom: 0px;
+}
+.remember-me-cont {
+    font-weight: 600;
+}
+.remember {
+    font-size: 14px;
+}
+.forgot-pwd {
+    font-size: 14px;
+    color:#50C3F0;
+    text-decoration: none;
+}
+.forgot-pwd:hover {
+    color:#50C3F0;
+    text-decoration: none;
+}
+.login-btn {
+    width: 280px;
+}
+.login-btn {
+    background-image: linear-gradient(to right, #50C3F0, #853DE5);
+    height:35px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0;
+    cursor: pointer;
+    border: 0px;
+}
+.not-a-member {
+    font-weight: 500;
+}
+.sign-up-text {
+    color:#50C3F0;
+    text-decoration: none;
+}
+.sign-up-text:hover {
+    color:#50C3F0;
+    text-decoration: none;
+}
+.error {
+    font-size: 14px;
+    color: red;
+    font-weight: 600;
+}
+.credentials{
+    align-self: flex-end;
+    margin: 20px;
+    border: 1px solid #ffffff;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width:425px) {
+    .login-btn {
+        width: 120px;
+        outline: 0;
+    } 
+    .input-field {
+        min-width: 240px;
+        height: 35px;
+        
+    }
+    .form {
+        background-color: #ffffff;
+        padding: 16px;
+        border-radius: 12px;
+        width: 300px;
+    }
+}
